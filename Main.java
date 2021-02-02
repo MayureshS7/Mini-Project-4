@@ -3,10 +3,11 @@ import java.util.Scanner;
 class Main {
 public static void main(String[] args) 
 	{
+		//Scanner
 		Scanner scan = new Scanner(System.in);
-
+		//Welcome printstatement.
 	 	System.out.println("\nWelcome to KFC");
-
+		
 		System.out.println("\nHow many chicken sandwiches do you want?");
 		int chickenSandwiches = scan.nextInt();
 		
@@ -37,10 +38,4 @@ public static void main(String[] args)
 		String cya = "\nThank you for coming to KFC :) " + name;
 		return cya;
 	}
-
-
-
-
-
-
 }
